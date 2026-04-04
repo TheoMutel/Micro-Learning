@@ -81,6 +81,7 @@
             "assets:install %PUBLIC_DIR%": "symfony-cmd",
             "importmap:install": "symfony-cmd"
         },
+        "start": "symfony server:start --no-tls",
         "post-install-cmd": [
             "@auto-scripts"
         ],
