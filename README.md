@@ -47,13 +47,13 @@ php bin/console doctrine:migrations:migrate
 php bin/console app:create-user
 ```
 
-5. Lancer le serveur :
+5. Lancer le projet avec une seule commande :
 
 ```bash
-symfony server:start
+composer start
 ```
 
-Ou, si vous n'avez pas le binaire Symfony :
+Cette commande démarre le serveur Symfony local. Si vous n'avez pas le binaire Symfony installé, utilisez :
 
 ```bash
 php -S localhost:8000 -t public
